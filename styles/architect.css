@@ -217,12 +217,14 @@ footer {
     max-width: 1440px;
     border-radius: 8px;
     background: #FFF4E7;
-    margin: 70px auto 0px;
+    margin: 70px auto;
+    
     
     
 }
-footer > p{
-    padding: 40px 410px;
+
+.foot-text{
+    padding: 30px 50px;
     text-align: center;
 }
 
@@ -267,8 +269,8 @@ footer > p{
     }
 }
 
-footer > p{
-    padding: 5px;
+.foot-text{
+    padding: 30px 50px;
     text-align: center;
 }
 
