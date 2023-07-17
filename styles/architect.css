@@ -126,7 +126,7 @@ main {
     display: flex;
     margin: 130px 0px;
     gap: 100px;
-  
+
 }
 
 .features-content .card {
@@ -213,6 +213,19 @@ main {
     width: 165px;
 }
 
+footer {
+    max-width: 1440px;
+    border-radius: 8px;
+    background: #FFF4E7;
+    margin: 70px auto 0px;
+    
+    
+}
+footer > p{
+    padding: 40px 410px;
+    text-align: center;
+}
+
 /*######################## responsive media query ########################*/
 
 /* mobile device */
@@ -252,6 +265,11 @@ main {
     .facts-card-container {
         gap: 20px;
     }
+}
+
+footer > p{
+    padding: 5px;
+    text-align: center;
 }
 
 /* tablet or medium device */
